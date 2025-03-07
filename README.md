@@ -1,6 +1,8 @@
 
 # Minecraftors StampExtractor
 
+## AIQoD Hackathon '25 | Problem Statement 3
+
 A comprehensive solution for extracting overlapping stamps and signature, that utilizes YOLO object detection to analyze documents, annotate detected objects, and extract them as separate images. This work was result of collective effort of Shivam, Arin, Varad and Yasir for the AIQoD hackathon organized at VIT Chennai.
 
 ## 📋 Overview
