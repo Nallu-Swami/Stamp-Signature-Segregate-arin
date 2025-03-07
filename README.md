@@ -1,7 +1,7 @@
 
 # Minecraftors StampExtractor
 
-A comprehensive solution for extracting overlapping stamps and signature, that utilizes YOLO object detection to analyze documents, annotate detected objects, and extract them as separate images. This work was result of collective effort of Shivam, Arin, Varad and Yasir for the AIQoD hackathon organized at VIT Chennai
+A comprehensive solution for extracting overlapping stamps and signature, that utilizes YOLO object detection to analyze documents, annotate detected objects, and extract them as separate images. This work was result of collective effort of Shivam, Arin, Varad and Yasir for the AIQoD hackathon organized at VIT Chennai.
 
 ## 📋 Overview
 
@@ -83,6 +83,21 @@ detections = sv.Detections.from_ultralytics(results).with_nms()
 box_annotator = sv.BoxAnnotator()
 annotated_image = box_annotator.annotate(scene=image.copy(), detections=detections)
 ```
+### Process_flow
+
+#### 1. Input document
+
+![alt text](image_assests/Screenshot%202025-03-06%20234344.png) 
+
+#### 2. Stamp and Sign Recognition
+
+![alt text](image_assests/output.png) 
+
+#### 4. ROI extraction
+
+![alt text](image_assests/object_0.png) 
+![alt text](image_assests/object_3.png) 
+
 
 ### Web Application
 Run the Streamlit app:
