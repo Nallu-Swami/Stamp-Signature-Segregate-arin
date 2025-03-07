@@ -38,21 +38,21 @@ Minecraftors StampExtractor is a document processing tool designed to:
 
 ## Workflow Demonstration
 
-### Step 1: Input Document
+### Step 1.1: Input Document
 ![Input Document](image_assests/Screenshot%202025-03-06%20234344.png)
 
-### Step 2: Stamp and Sign Recognition
+### Step 1.2: Stamp and Sign Recognition
 ![Recognition Results](image_assests/output.png)
 
-### Step 3: ROI Extraction
+### Step 1.3: ROI Extraction
 ![Extracted Object 1](image_assests/object_0.png)
 ![Extracted Object 2](image_assests/object_3.png)
 
-### Step 4: Signature Segmentation
+### Step 2.1: Signature Segmentation
 ![Signature Segmentation 1](image_assests/Screenshot%202025-03-07%20104506.png)
 ![Signature Segmentation 2](image_assests/Screenshot%202025-03-07%20104528.png)
 
-### Step 5: Stamp Separation
+### Step 2.2: Stamp Separation
 ![Stamp Separation](image_assests/Screenshot%202025-03-07%20104815.png)
 
 ## 📁 Dataset
@@ -61,6 +61,11 @@ The dataset comprises document images containing stamps, created and managed thr
 - 1,422 training images
 - 82 validation images
 - Test set for model evaluation
+
+## Metrics
+
+![training_n_validation](image_assests/WhatsApp%20Image%202025-03-07%20at%2011.05.15.jpeg)
+![final_metrics](image_assests/WhatsApp%20Image%202025-03-07%20at%2011.05.42.jpeg)
 
 ## 📂 Project Structure
 
