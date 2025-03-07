@@ -63,7 +63,7 @@ The dataset comprises document images containing stamps, created and managed thr
 
 
 
-## Project Structure
+## Using yolo for inference
 ```
 project_root/
 ├── Colab-NoteBooks/           # Jupyter notebooks for model training
@@ -114,7 +114,7 @@ box_annotator = sv.BoxAnnotator()
 annotated_image = box_annotator.annotate(scene=image.copy(), detections=detections)
 ```
 
-### Web Application
+## Web Application
 Run the Streamlit app:
 ```bash
 cd webapp
@@ -129,7 +129,7 @@ streamlit run main.py
 - Supervision
 - Streamlit (for web app)
 
-## 🏗️ WebApp Structure
+## 🏗️ WebApp directory Structure
 
 ```
 webapp/
