@@ -42,11 +42,11 @@ Minecraftors StampExtractor is a document processing tool designed to:
 ![Upload Interface](image_assests/WhatsApp%20Image%202025-03-07%20at%2011.16.49.jpeg)
 
 ### Step 3: Semantic Segmentation for Precise Differentiation
-![img](image_assests\4.jpg)
+![img](image_assests/4.jpg)
 
 
 ### Step 4 : Semantic Segmentaion and Signature Removal Using  Color Segmentation and Masking
-![img](image_assests\3.jpg)
+![img](image_assests/3.jpg)
 
 ## Workflow Demonstration
 
