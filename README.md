@@ -96,10 +96,18 @@ annotated_image = box_annotator.annotate(scene=image.copy(), detections=detectio
 
 ![alt text](image_assests/output.png) 
 
-#### 4. ROI extraction
+#### 4. ROI Extraction
 
 ![alt text](image_assests/object_0.png) 
 ![alt text](image_assests/object_3.png) 
+
+#### 5. Signature Segmentation 
+
+![alt_txt](image_assests/Screenshot%202025-03-07%20104506.png)
+![alt_txt](image_assests/Screenshot%202025-03-07%20104528.png)
+
+#### 6. Stamp Seperation
+![alt_txt](image_assests/Screenshot%202025-03-07%20104815.png)
 
 
 ### Web Application
