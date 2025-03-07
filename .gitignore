@@ -1,1 +1,10 @@
 Stamp-Sign/
+lightning_logs/
+nalla-2/
+.gitignore
+.ipynb_checkpoints/
+__pycache__/
+nalla-5/
+segmented_outputs/
+
+
