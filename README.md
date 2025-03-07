@@ -164,6 +164,13 @@ Run the Streamlit app:
 cd webapp
 streamlit run main.py
 ```
+<p align="center">
+    <video width="600" controls>
+        <source src="image_assests/Screen%20Recording%202025-03-06%20232351.mp4" type="video/mp4">
+    </video>
+</p>
+
+
 
 The application will start and open in your default web browser at `http://localhost:8501`.
 
