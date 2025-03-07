@@ -256,10 +256,10 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 👨‍💻 Authors
 
-- **Shivam**
-- **Arin**
-- **Varad**
-- **Yasir**
+- **Kumar Shivam** *22BCE1804*
+- **Arin Yadav** *22BCE5043*
+- **Varad Dherange** *22BCE1298*
+- **Yasir Ahmad** *22MIA1064*
 
 ## 📜 License
 
