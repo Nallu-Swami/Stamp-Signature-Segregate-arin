@@ -17,6 +17,9 @@ Minecraftors StampExtractor is a document processing tool designed to:
 ## Workflow
 ![alt text](image_assests/image.png)  
 
+### Step1
+![alt_text](image_assests/Screenshot%202025-03-07%20104004.png)
+
 ## Features
 - **High Performance Detection**: Trained YOLOv12 model achieves mAP50 of 0.825 and mAP50-95 of 0.448
 - **Complete Training Pipeline**: Includes data preparation, model training, evaluation, and inference
