@@ -38,6 +38,31 @@ The dataset comprises document images containing stamps, created and managed thr
 - **mAP 50**: 0.825
 - **mAP 75**: 0.418
 
+### Workflow Demonstration
+
+#### 1. Input document
+
+![alt text](image_assests/Screenshot%202025-03-06%20234344.png) 
+
+#### 2. Stamp and Sign Recognition
+
+![alt text](image_assests/output.png) 
+
+#### 4. ROI Extraction
+
+![alt text](image_assests/object_0.png) 
+![alt text](image_assests/object_3.png) 
+
+#### 5. Signature Segmentation 
+
+![alt_txt](image_assests/Screenshot%202025-03-07%20104506.png)
+![alt_txt](image_assests/Screenshot%202025-03-07%20104528.png)
+
+#### 6. Stamp Seperation
+![alt_txt](image_assests/Screenshot%202025-03-07%20104815.png)
+
+
+
 ## Project Structure
 ```
 project_root/
@@ -88,29 +113,6 @@ detections = sv.Detections.from_ultralytics(results).with_nms()
 box_annotator = sv.BoxAnnotator()
 annotated_image = box_annotator.annotate(scene=image.copy(), detections=detections)
 ```
-### Process_flow
-
-#### 1. Input document
-
-![alt text](image_assests/Screenshot%202025-03-06%20234344.png) 
-
-#### 2. Stamp and Sign Recognition
-
-![alt text](image_assests/output.png) 
-
-#### 4. ROI Extraction
-
-![alt text](image_assests/object_0.png) 
-![alt text](image_assests/object_3.png) 
-
-#### 5. Signature Segmentation 
-
-![alt_txt](image_assests/Screenshot%202025-03-07%20104506.png)
-![alt_txt](image_assests/Screenshot%202025-03-07%20104528.png)
-
-#### 6. Stamp Seperation
-![alt_txt](image_assests/Screenshot%202025-03-07%20104815.png)
-
 
 ### Web Application
 Run the Streamlit app:
