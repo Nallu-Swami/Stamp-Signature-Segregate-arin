@@ -182,7 +182,7 @@ streamlit run main.py
 ```
 <p align="center">
     <video width="600" controls>
-        <source src="image_assests/Screen%20Recording%202025-03-06%20232351.mp4" type="video/mp4">
+        <source src="[image_assests/Screen%20Recording%202025-03-06%20232351.mp4](https://github.com/KumarShivam1908/Stamp-Signature-Segregate/blob/2ac6eba1e251265b71980cb9bfc30999b2f01582/image_assests/Screen%20Recording%202025-03-06%20232351.mp4)" type="video/mp4">
     </video>
 </p>
 
