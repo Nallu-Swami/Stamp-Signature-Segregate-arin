@@ -65,12 +65,15 @@ Minecraftors StampExtractor is a document processing tool designed to:
 ![Signature Segmentation 2](image_assests/Screenshot%202025-03-07%20104528.png)
 
 ### Step 3.1: Signature Seperation
-![Signature_sep](image_assests/WhatsApp%20Image%202025-03-07%20at%2013.27.23.jpeg)
-![Signatre_Seperation](image_assests/tert2.JPG)
+![Signature_sep](image_assests/WhatsApp%20Image%202025-03-07%20at%2013.27.23.jpeg)  
+
+Signature Heatmap  
+![Signature_Heatmap](image_assests/WhatsApp%20Image%202025-03-07%20at%2013.34.00.jpeg)
 
 
 ### Step 3.2: Stamp Separation
 ![Stamp Separation](image_assests/Screenshot%202025-03-07%20104815.png)
+![Signatre_Seperation](image_assests/tert2.JPG)
 ![Stamp_sep](image_assests/WhatsApp%20Image%202025-03-07%20at%2013.28.09.jpeg)
 
 ## 📁 Dataset
