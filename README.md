@@ -1,7 +1,10 @@
 # Stamp Detection with YOLOv12
 
 ## Overview
-This project implements a stamp detection system using YOLOv12 object detection model. The system is designed to identify and locate stamps in document images with high accuracy, enabling automated document processing applications.
+This project implements a stamp detection system using YOLOv12 object detection model. The system is designed to identify and locate stamps in document images with high accuracy, enabling automated document processing applications.  
+
+## Workflow
+![alt text](image_assests/image.png)  
 
 ## Features
 - **High Performance Detection**: Trained YOLOv12 model achieves mAP50 of 0.825 and mAP50-95 of 0.448
