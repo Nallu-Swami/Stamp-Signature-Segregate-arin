@@ -14,6 +14,9 @@ Minecraftors StampExtractor is a document processing tool designed to:
 - Extract detected objects as separate images
 - Provide a simple and intuitive web interface
 
+
+![Workflow Diagram](image_assests/image.png)
+
 ## 🚀 Features
 
 - **High Performance Detection**: Trained YOLOv12 model achieves mAP50 of 0.825 and mAP50-95 of 0.448
@@ -25,16 +28,18 @@ Minecraftors StampExtractor is a document processing tool designed to:
 - **mAP 50:95**: 0.448
 - **mAP 50**: 0.825
 - **mAP 75**: 0.418
+### Final Model Metrics:
+> Test Loss: 0.1441  
+> Test IoU: 0.6779  
+> Test Accuracy: 0.7385  
 
 ## 🔄 Workflow
 
-![Workflow Diagram](image_assests/image.png)
-
 ### Step 1: Document Upload Interface
-![Upload Interface](image_assests/Screenshot%202025-03-07%20104004.png)
+![Upload Interface](image_assests/WhatsApp%20Image%202025-03-07%20at%2010.36.55.jpeg)
 
 ### Step 2: Document Upload Interface
-![Upload Interface](image_assests/Screenshot%202025-03-07%20110652.png)
+![Upload Interface](image_assests/WhatsApp%20Image%202025-03-07%20at%2011.16.49.jpeg)
 
 ## Workflow Demonstration
 
@@ -48,11 +53,14 @@ Minecraftors StampExtractor is a document processing tool designed to:
 ![Extracted Object 1](image_assests/object_0.png)
 ![Extracted Object 2](image_assests/object_3.png)
 
-### Step 2.1: Signature Segmentation
+### Step 2: Signature Segmentation
 ![Signature Segmentation 1](image_assests/Screenshot%202025-03-07%20104506.png)
 ![Signature Segmentation 2](image_assests/Screenshot%202025-03-07%20104528.png)
 
-### Step 2.2: Stamp Separation
+### Step 3.1: Signature Seperation
+![Signatre_Seperation](image_assests/tert2.JPG)
+
+### Step 3.2: Stamp Separation
 ![Stamp Separation](image_assests/Screenshot%202025-03-07%20104815.png)
 
 ## 📁 Dataset
