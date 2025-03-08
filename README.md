@@ -100,6 +100,10 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - **Varad Dherange** *22BCE1298*
 - **Yasir Ahmad** *22MIA1064*
 
+## References
+
+- [Roboflow Notebooks](https://github.com/roboflow/notebooks) - Example notebooks and resources for object detection and Finetuning
+
 ## 📜 License
 
 This project is licensed under the  GPL-3.0 license - see the LICENSE file for details.
