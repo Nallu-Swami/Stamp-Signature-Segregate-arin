@@ -2,17 +2,17 @@
 
 ## AIQoD Hackathon '25 | Problem Statement 3
 
-A comprehensive solution for extracting overlapping stamps and signatures from documents using YOLO object detection. This project is the result of collective efforts by Shivam, Arin, Varad, and Yasir for the AIQoD hackathon organized at VIT Chennai.
+A comprehensive solution for extracting overlapping stamps and signatures from documents using YOLO object detection and Nvidia's SegFormer for semantic segmentation, followed by advanced image processing techniques. This project is the result of the collective efforts of Shivam, Arin, Varad, and Yasir for the AIQoD hackathon organized at VIT Chennai.
 
-## 📋 Overview
+## 📋 Overview  
 
-Minecraftors StampExtractor is a document processing tool designed to:
+Minecraftors StampExtractor is a document processing tool designed to:  
 
-- Upload PNG documents for analysis
-- Process images using a pre-trained YOLO model
-- Annotate detected objects with bounding boxes and labels
-- Extract detected objects as separate images
-- Provide a simple and intuitive web interface
+- Upload PNG documents for analysis.  
+- Process images using a pre-trained YOLO model for object detection to identify regions where overlapping stamps are present.  
+- Apply semantic segmentation to accurately segment signatures.  
+- Remove signatures using color segmentation, masking, and advanced image processing techniques.  
+- Provide a user-friendly web interface for seamless interaction.
 
 
 ![Workflow Diagram](image_assests/image.png)
