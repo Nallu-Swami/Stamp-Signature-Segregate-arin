@@ -96,6 +96,13 @@ The dataset comprises document images containing stamps, created and managed thr
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+## 🔮 Future Works
+- Advanced DIP: Improve edge detection, noise reduction, and contrast adjustment for better extraction.
+
+- Mobile App: Build a cross-platform app (Flutter/React Native) for on-the-go processing.
+
+- RESTful API: Develop an authenticated API with rate limiting and integration support.
+
 ## 👨‍💻 Authors
 
 - **Kumar Shivam** *22BCE1804*
